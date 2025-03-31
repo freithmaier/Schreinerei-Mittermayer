@@ -1,8 +1,8 @@
-import Link from "next/link"
-import Image from "next/image"
-import { ChevronRight, Mail, MapPin, Phone } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -20,19 +20,34 @@ export default function Home() {
             <span>Schreinerei Mittermayer</span>
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/" className="font-medium hover:text-primary transition-colors">
+            <Link
+              href="/"
+              className="font-medium hover:text-primary transition-colors"
+            >
               Startseite
             </Link>
-            <Link href="#leistungen" className="font-medium hover:text-primary transition-colors">
+            <Link
+              href="#leistungen"
+              className="font-medium hover:text-primary transition-colors"
+            >
               Leistungen
             </Link>
-            <Link href="#projekte" className="font-medium hover:text-primary transition-colors">
+            <Link
+              href="#projekte"
+              className="font-medium hover:text-primary transition-colors"
+            >
               Projekte
             </Link>
-            <Link href="#über-uns" className="font-medium hover:text-primary transition-colors">
+            <Link
+              href="#über-uns"
+              className="font-medium hover:text-primary transition-colors"
+            >
               Über uns
             </Link>
-            <Link href="#kontakt" className="font-medium hover:text-primary transition-colors">
+            <Link
+              href="#kontakt"
+              className="font-medium hover:text-primary transition-colors"
+            >
               Kontakt
             </Link>
           </nav>
@@ -78,7 +93,8 @@ export default function Home() {
                 Handwerkskunst aus Niederbayern
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-                Hochwertige Möbel und Holzarbeiten nach Maß aus der Schreinerei Mittermayer in Deggendorf
+                Hochwertige Möbel und Holzarbeiten nach Maß aus der Schreinerei
+                Mittermayer in Deggendorf
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="text-lg">
@@ -99,10 +115,13 @@ export default function Home() {
         <section id="leistungen" className="py-16 md:py-24 bg-muted/50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">Unsere Leistungen</h2>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">
+                Unsere Leistungen
+              </h2>
               <p className="text-muted-foreground max-w-3xl">
-                Wir bieten maßgeschneiderte Lösungen für Ihr Zuhause und Ihren Geschäftsbereich. Jedes Stück wird mit
-                Präzision und Liebe zum Detail gefertigt.
+                Wir bieten maßgeschneiderte Lösungen für Ihr Zuhause und Ihren
+                Geschäftsbereich. Jedes Stück wird mit Präzision und Liebe zum
+                Detail gefertigt.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -127,10 +146,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Möbel nach Maß</h3>
                 <p className="text-muted-foreground mb-4">
-                  Individuelle Möbelstücke, die perfekt zu Ihren Räumlichkeiten passen und Ihren persönlichen Stil
-                  widerspiegeln.
+                  Individuelle Möbelstücke, die perfekt zu Ihren Räumlichkeiten
+                  passen und Ihren persönlichen Stil widerspiegeln.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -155,9 +177,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Innenausbau</h3>
                 <p className="text-muted-foreground mb-4">
-                  Kompletter Innenausbau von Wohn- und Geschäftsräumen, von der Planung bis zur Umsetzung.
+                  Kompletter Innenausbau von Wohn- und Geschäftsräumen, von der
+                  Planung bis zur Umsetzung.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -182,9 +208,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Türen & Fenster</h3>
                 <p className="text-muted-foreground mb-4">
-                  Hochwertige Türen und Fenster aus Holz, individuell angepasst und fachgerecht eingebaut.
+                  Hochwertige Türen und Fenster aus Holz, individuell angepasst
+                  und fachgerecht eingebaut.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -209,9 +239,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Küchen</h3>
                 <p className="text-muted-foreground mb-4">
-                  Funktionale und ästhetische Küchenkonzepte, die Ihre Kochgewohnheiten und Ihren Stil berücksichtigen.
+                  Funktionale und ästhetische Küchenkonzepte, die Ihre
+                  Kochgewohnheiten und Ihren Stil berücksichtigen.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -235,9 +269,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Restaurierung</h3>
                 <p className="text-muted-foreground mb-4">
-                  Fachgerechte Restaurierung von Antiquitäten und alten Möbelstücken mit Respekt für das Original.
+                  Fachgerechte Restaurierung von Antiquitäten und alten
+                  Möbelstücken mit Respekt für das Original.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -260,9 +298,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Reparaturen</h3>
                 <p className="text-muted-foreground mb-4">
-                  Schnelle und zuverlässige Reparaturen von Holzmöbeln, Türen, Fenstern und anderen Holzelementen.
+                  Schnelle und zuverlässige Reparaturen von Holzmöbeln, Türen,
+                  Fenstern und anderen Holzelementen.
                 </p>
-                <Link href="#" className="text-primary font-medium inline-flex items-center">
+                <Link
+                  href="#"
+                  className="text-primary font-medium inline-flex items-center"
+                >
                   Mehr erfahren <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -273,15 +315,20 @@ export default function Home() {
         <section id="projekte" className="py-16 md:py-24">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">Unsere Projekte</h2>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">
+                Unsere Projekte
+              </h2>
               <p className="text-muted-foreground max-w-3xl">
-                Entdecken Sie eine Auswahl unserer abgeschlossenen Projekte und lassen Sie sich von unserer
-                Handwerkskunst inspirieren.
+                Entdecken Sie eine Auswahl unserer abgeschlossenen Projekte und
+                lassen Sie sich von unserer Handwerkskunst inspirieren.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[1, 2, 3, 4, 5, 6].map((item) => (
-                <div key={item} className="group relative overflow-hidden rounded-lg">
+                <div
+                  key={item}
+                  className="group relative overflow-hidden rounded-lg"
+                >
                   <Image
                     src={`/placeholder.svg?height=400&width=600&text=Projekt%20${item}`}
                     alt={`Projekt ${item}`}
@@ -291,9 +338,16 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <div>
-                      <h3 className="text-xl font-bold text-white mb-2">Projekt {item}</h3>
-                      <p className="text-white/90 mb-4">Beschreibung des Projekts {item}</p>
-                      <Button variant="outline" className="bg-white/10 text-white border-white/20 hover:bg-white/20">
+                      <h3 className="text-xl font-bold text-white mb-2">
+                        Projekt {item}
+                      </h3>
+                      <p className="text-white/90 mb-4">
+                        Beschreibung des Projekts {item}
+                      </p>
+                      <Button
+                        variant="outline"
+                        className="bg-white/10 text-white border-white/20 hover:bg-white/20"
+                      >
                         Details ansehen
                       </Button>
                     </div>
@@ -317,17 +371,20 @@ export default function Home() {
                   Über die Schreinerei Mittermayer
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  Seit über 30 Jahren steht die Schreinerei Mittermayer für Qualität, Präzision und Zuverlässigkeit. Als
-                  Familienbetrieb in Deggendorf, Niederbayern, verbinden wir traditionelles Handwerk mit modernen
-                  Techniken.
+                  Seit über 30 Jahren steht die Schreinerei Mittermayer für
+                  Qualität, Präzision und Zuverlässigkeit. Als Familienbetrieb
+                  in Deggendorf, Niederbayern, verbinden wir traditionelles
+                  Handwerk mit modernen Techniken.
                 </p>
                 <p className="text-muted-foreground mb-6">
-                  Unser Team aus erfahrenen Schreinern und talentierten Nachwuchskräften arbeitet mit Leidenschaft
-                  daran, Ihre Wünsche und Vorstellungen in hochwertige Holzarbeiten umzusetzen.
+                  Unser Team aus erfahrenen Schreinern und talentierten
+                  Nachwuchskräften arbeitet mit Leidenschaft daran, Ihre Wünsche
+                  und Vorstellungen in hochwertige Holzarbeiten umzusetzen.
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  Wir legen großen Wert auf nachhaltige Materialien und umweltfreundliche Produktionsprozesse, um nicht
-                  nur Ihnen, sondern auch der Umwelt gerecht zu werden.
+                  Wir legen großen Wert auf nachhaltige Materialien und
+                  umweltfreundliche Produktionsprozesse, um nicht nur Ihnen,
+                  sondern auch der Umwelt gerecht zu werden.
                 </p>
                 <Button>Mehr über uns erfahren</Button>
               </div>
@@ -341,8 +398,8 @@ export default function Home() {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-background p-4 rounded-lg shadow-lg max-w-xs">
                   <p className="italic text-muted-foreground">
-                    "Holz ist nicht nur unser Material, sondern unsere Leidenschaft. Jedes Stück erzählt eine
-                    Geschichte."
+                    "Holz ist nicht nur unser Material, sondern unsere
+                    Leidenschaft. Jedes Stück erzählt eine Geschichte."
                   </p>
                   <p className="font-bold mt-2">- Familie Mittermayer</p>
                 </div>
@@ -354,10 +411,13 @@ export default function Home() {
         <section id="kontakt" className="py-16 md:py-24">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">Kontaktieren Sie uns</h2>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">
+                Kontaktieren Sie uns
+              </h2>
               <p className="text-muted-foreground max-w-3xl">
-                Haben Sie Fragen oder möchten Sie ein Projekt besprechen? Kontaktieren Sie uns gerne per Telefon, E-Mail
-                oder besuchen Sie unsere Werkstatt in Deggendorf.
+                Haben Sie Fragen oder möchten Sie ein Projekt besprechen?
+                Kontaktieren Sie uns gerne per Telefon, E-Mail oder besuchen Sie
+                unsere Werkstatt in Deggendorf.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -366,8 +426,13 @@ export default function Home() {
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Telefon</h3>
-                <p className="text-muted-foreground mb-4">Rufen Sie uns an für eine persönliche Beratung</p>
-                <a href="tel:+4991112345678" className="text-primary font-medium">
+                <p className="text-muted-foreground mb-4">
+                  Rufen Sie uns an für eine persönliche Beratung
+                </p>
+                <a
+                  href="tel:+4991112345678"
+                  className="text-primary font-medium"
+                >
                   +49 (0) 9911 12345678
                 </a>
               </div>
@@ -376,8 +441,13 @@ export default function Home() {
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">E-Mail</h3>
-                <p className="text-muted-foreground mb-4">Schreiben Sie uns für Anfragen und Informationen</p>
-                <a href="mailto:info@schreinerei-mittermayer.de" className="text-primary font-medium">
+                <p className="text-muted-foreground mb-4">
+                  Schreiben Sie uns für Anfragen und Informationen
+                </p>
+                <a
+                  href="mailto:info@schreinerei-mittermayer.de"
+                  className="text-primary font-medium"
+                >
                   info@schreinerei-mittermayer.de
                 </a>
               </div>
@@ -386,7 +456,9 @@ export default function Home() {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Adresse</h3>
-                <p className="text-muted-foreground mb-4">Besuchen Sie unsere Werkstatt und Ausstellung</p>
+                <p className="text-muted-foreground mb-4">
+                  Besuchen Sie unsere Werkstatt und Ausstellung
+                </p>
                 <address className="not-italic text-primary font-medium">
                   Handwerkerstraße 123
                   <br />
@@ -406,7 +478,11 @@ export default function Home() {
                         <label htmlFor="name" className="text-sm font-medium">
                           Name
                         </label>
-                        <input id="name" placeholder="Ihr Name" className="w-full px-3 py-2 border rounded-md" />
+                        <input
+                          id="name"
+                          placeholder="Ihr Name"
+                          className="w-full px-3 py-2 border rounded-md"
+                        />
                       </div>
                       <div className="space-y-2">
                         <label htmlFor="email" className="text-sm font-medium">
@@ -463,7 +539,10 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <Link href="/" className="flex items-center gap-2 font-bold text-xl mb-4">
+              <Link
+                href="/"
+                className="flex items-center gap-2 font-bold text-xl mb-4"
+              >
                 <Image
                   src="/placeholder.svg?height=40&width=40"
                   alt="Schreinerei Mittermayer Logo"
@@ -474,11 +553,14 @@ export default function Home() {
                 <span>Schreinerei Mittermayer</span>
               </Link>
               <p className="text-muted-foreground mb-4">
-                Qualität und Handwerkskunst seit 1990. Ihr Spezialist für Möbel nach Maß und Innenausbau in Deggendorf
-                und Umgebung.
+                Qualität und Handwerkskunst seit 1990. Ihr Spezialist für Möbel
+                nach Maß und Innenausbau in Deggendorf und Umgebung.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-muted-foreground hover:text-primary">
+                <a
+                  href="#"
+                  className="text-muted-foreground hover:text-primary"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -495,7 +577,10 @@ export default function Home() {
                   </svg>
                   <span className="sr-only">Facebook</span>
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-primary">
+                <a
+                  href="#"
+                  className="text-muted-foreground hover:text-primary"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -520,32 +605,50 @@ export default function Home() {
               <h3 className="font-bold text-lg mb-4">Leistungen</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Möbel nach Maß
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Innenausbau
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Türen & Fenster
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Küchen
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Restaurierung
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link
+                    href="#"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Reparaturen
                   </Link>
                 </li>
@@ -555,7 +658,9 @@ export default function Home() {
               <h3 className="font-bold text-lg mb-4">Öffnungszeiten</h3>
               <ul className="space-y-2">
                 <li className="flex justify-between">
-                  <span className="text-muted-foreground">Montag - Freitag</span>
+                  <span className="text-muted-foreground">
+                    Montag - Freitag
+                  </span>
                   <span>8:00 - 17:00 Uhr</span>
                 </li>
                 <li className="flex justify-between">
@@ -592,7 +697,10 @@ export default function Home() {
                 </p>
                 <p className="flex items-center">
                   <Mail className="mr-2 h-5 w-5" />
-                  <a href="mailto:info@schreinerei-mittermayer.de" className="hover:text-primary">
+                  <a
+                    href="mailto:info@schreinerei-mittermayer.de"
+                    className="hover:text-primary"
+                  >
                     info@schreinerei-mittermayer.de
                   </a>
                 </p>
@@ -601,16 +709,26 @@ export default function Home() {
           </div>
           <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Schreinerei Mittermayer. Alle Rechte vorbehalten.
+              © {new Date().getFullYear()} Schreinerei Mittermayer. Alle Rechte
+              vorbehalten.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-primary"
+              >
                 Impressum
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-primary"
+              >
                 Datenschutz
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-primary"
+              >
                 AGB
               </Link>
             </div>
@@ -618,6 +736,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
-
